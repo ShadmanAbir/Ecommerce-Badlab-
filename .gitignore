@@ -1,0 +1,49 @@
+# Dependencies
+/vendor
+/node_modules
+
+# Build artifacts
+/public/build
+/public/hot
+/public/storage
+/.phpunit.cache
+.phpunit.result.cache
+
+# Environment & secrets
+.env
+.env.backup
+.env.production
+auth.json
+/storage/*.key
+
+# Local database
+/database/database.sqlite
+/database/*.sql
+
+# Laravel storage runtime
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+# IDE / editors
+/.fleet
+/.idea
+/.vscode
+/.qoder
+
+# OS / misc
+.DS_Store
+Thumbs.db
+npm-debug.log
+yarn-error.log
+Homestead.json
+Homestead.yaml
+
+# Screenshots & temp files
+*.png.tmp
+/demo
